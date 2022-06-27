@@ -39,5 +39,24 @@
         "Image" : "Images/client.png",
         "clientname" : "Johnhex",
         "clientcomment" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure"
+    }],
+    "Footer" : [{
+        "name" : "footer",
+        "menu1" : "Fruits",
+        "menu2" : "Services",
+        "menu3" : "List",
+        "fruitmenu1": "grapes",
+        "fruitmenu2": "gauva",
+        "fruitmenu3": "orange",
+        "servicemenu1": "randomised",
+        "servicemenu2": "words which",
+        "servicemenu3": "Lorem Ipsum",
+        "listmenu1" : "randomised",
+        "listmenu2" : "words which",
+        "listmenu3" : "Lorem Ipsum",
+        "socialimage1" : "Images/fb.png",
+        "socialimage2" : "Images/twitter.png",
+        "socialimage3" : "Images/instagram.png",
+        "socialimage4" : "Images/linkedin.png" 
     }]
 }

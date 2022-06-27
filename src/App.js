@@ -5,6 +5,7 @@ import Banner from './Components/Banner';
 import Ourservice from './Components/Ourservice';
 import Freshfruits from './Components/Freshfruits';
 import ClientTestimonals from './Components/ClientTestimonals';
+import Footer from './Components/Footer';
 import './css/style.css';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -22,6 +23,7 @@ function App() {
        <Ourservice/>
        <Freshfruits/>
        <ClientTestimonals/>
+       <Footer/>
     </div>
   );
 }
