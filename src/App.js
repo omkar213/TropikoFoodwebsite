@@ -1,10 +1,27 @@
 import React from 'react';
-import './App.css';
+import SmoothScroll from "smooth-scroll";
+import AboutUs from './Components/AboutUs';
+import Banner from './Components/Banner';
+import Ourservice from './Components/Ourservice';
+import Freshfruits from './Components/Freshfruits';
+import ClientTestimonals from './Components/ClientTestimonals';
+import './css/style.css';
+
+export const scroll = new SmoothScroll('a[href*="#"]', {
+  speed: 1000,
+  speedAsDuration: true,
+});
+
 
 function App() {
+  
   return (
-    <div className="App">
-       <h1>Portfolio Website</h1>
+    <div>
+       <Banner/>
+       <AboutUs/>
+       <Ourservice/>
+       <Freshfruits/>
+       <ClientTestimonals/>
     </div>
   );
 }

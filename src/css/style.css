@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@400&family=Rubik:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container-spacing {
+  margin: 4rem;
+  padding: 2rem;
+}
+.commonheading {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bolder;
+}
+.custom_orange_btn {
+  background-color: #fc5d35;
+}
+.custom_black_btn {
+  background-color: #000000;
+}
+.custom_subheading-text {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.commonfontsizeforp {
+  font-size: 1.2rem;
+}
+
+/* Banner css starts */
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.banner-info {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.banner-info h1 {
+  font-size: 3.8rem;
+  font-weight: bolder;
+  width: 70%;
+}
+.btn-section {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.btn-section button {
+  width: 160px;
+  height: 45px;
+  text-align: center;
+  outline: none;
+  color: #f7f7f7;
+  border: 1px solid transparent;
+  padding: 10px 0;
+  font-size: 1.1rem;
+}
+.banner-img {
+  width: 500px;
+  height: auto;
+}
+/* end */
+
+/* about us section */
+.aboutus-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.aboutusInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imageaboutus {
+  width: 615px;
+  height: auto;
+}
+/* end */
+/* our service section */
+.ourservice-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.fruitscard-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 45px;
+}
+.card {
+  width: 340px;
+  height: 344px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #1a1a1a;
+  border-radius: 6px;
+}
+.card-body {
+  padding: 2rem;
+  text-align: justify;
+}
+.card-body h4 {
+  text-align: center;
+  font-size: 1.4rem;
+}
+.card-text {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+.fruitimg {
+  width: 60px;
+  height: auto;
+  margin-top: 23px;
+}
+.readmore button {
+  width: 160px;
+  height: 45px;
+  text-align: center;
+  outline: none;
+  color: #f7f7f7;
+  background-color: #000000;
+}
+/* end */
+
+/* fresh fruit section */
+.fruitinfo-container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-top: 41px;
+}
+.fruitinfo {
+  display: flex;
+  flex-direction: row;
+  width: 1100px;
+  justify-content: space-around;
+  align-items: center;
+}
+.fruitinfo-body {
+  width: 65%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.orangeimage {
+  width: 272px;
+  height: 152px;
+}
+.grapesimage {
+  width: 282px;
+  height: 206px;
+}
+.gauvaimage {
+  width: 250px;
+  height: 214px;
+}
+/* end */
+
+/* client testimonals */
+.swiper {
+    width: 100%;
+    height: 450px;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+.client-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.clientImage{
+    width: 288px;
+    height: 290px;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 50%;
+}
+.client-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 72%;
+}
+/* end */
+
+/* mobile section css starts */
+@media only screen and (max-width: 767px) {
+  .container-spacing {
+    margin: 1rem;
+    padding: 2rem;
+  }
+  .commonheading{
+    font-size: 1.5rem;
+  }
+  .custom_subheading-text{
+    font-size: 1rem;
+  }
+  /* banner section */
+  .banner-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+  .banner-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-info h1 {
+    font-size: 3.1rem;
+    width: 100%;
+  }
+  .banner-img {
+    width: 325px;
+    height: auto;
+  }
+  /* end */
+
+  /* about us  */
+  .imageaboutus {
+    width: 320px;
+    height: auto;
+  }
+  /* end */
+
+  /* our service */
+  .fruitscard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 100%;
+    height: auto;
+  }
+  /* end */
+
+  /* fruit section */
+  .fruitinfo-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 65px;
+    margin-top: 20px;
+  }
+  .fruitinfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+  }
+  .fruitinfo-body {
+    width: 70%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .orangeimage {
+    width: 200px;
+    height: auto;
+  }
+  .grapesimage {
+    width: 220px;
+    height: auto;
+  }
+  .gauvaimage {
+    width: 200px;
+    height: auto;
+  }
+  /* end */
+
+  /* client testimonals */
+  .swiper{
+    width: 100%;
+    height: 680px;
+  }
+  .client-details h2{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .client-details p{
+    font-size: 1rem;
+  }
+  /* end */
+}
+/* end */

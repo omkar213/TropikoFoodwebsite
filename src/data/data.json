@@ -1,0 +1,43 @@
+{
+    "Banner" : [{
+        "name" : "banner",
+        "bannerheading": "Welcome to Our Fruits Shop",
+        "bannerImage": "Images/slide-img.png", 
+        "subinfo": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+    }],
+    "AboutUs" : [{
+        "name": "about us",
+        "Imageaboutus" : "Images/aboutus-min.jpg",
+        "info": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+    }],
+    "Ourservices" : [{
+        "name" : "service",
+        "image1": "Images/card-item-1.png",
+        "cardheading1": "Orange",
+        "subinfo1": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "image2": "Images/card-item-2.png",
+        "cardheading2": "Grapes",
+        "subinfo2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "image3": "Images/card-item-3.png",
+        "cardheading3": "Gauva",
+        "subinfo3": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+    }],
+    "Freshfruit" : [{
+        "name" : "fresh",
+        "subheading1": "Best Fresh Orange",
+        "submenu1": "but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be",
+        "image1" : "Images/orange.png",
+        "subheading2": "Best Fresh Grapes",
+        "submenu2": "but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be",
+        "image2" : "Images/graphes.jpg",
+        "subheading3": "Best Fresh Gauva",
+        "submenu3": "but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be",
+        "image3" : "Images/gauva.png"
+    }],
+    "Clienttestimonals" : [{
+        "name" : "client section",
+        "Image" : "Images/client.png",
+        "clientname" : "Johnhex",
+        "clientcomment" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure"
+    }]
+}
