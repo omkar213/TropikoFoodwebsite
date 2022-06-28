@@ -5,6 +5,7 @@ import Banner from './Components/Banner';
 import Ourservice from './Components/Ourservice';
 import Freshfruits from './Components/Freshfruits';
 import ClientTestimonals from './Components/ClientTestimonals';
+import Contactus from './Components/Contactus';
 import Footer from './Components/Footer';
 import './css/style.css';
 
@@ -23,6 +24,7 @@ function App() {
        <Ourservice/>
        <Freshfruits/>
        <ClientTestimonals/>
+       <Contactus/>
        <Footer/>
     </div>
   );

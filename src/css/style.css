@@ -176,8 +176,8 @@
 
 /* client testimonals */
 .swiper {
-    width: 100%;
-    height: 450px;
+  width: 100%;
+  height: 450px;
 }
 .swiper-slide {
   text-align: center;
@@ -198,29 +198,271 @@
   align-items: center;
 }
 .swiper {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
-.client-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.client-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.clientImage{
-    width: 288px;
-    height: 290px;
-    border: 1px solid rgb(90, 90, 90);
-    border-radius: 50%;
+.clientImage {
+  width: 288px;
+  height: 290px;
+  border: 1px solid rgb(90, 90, 90);
+  border-radius: 50%;
 }
-.client-details{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 72%;
+.client-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 72%;
 }
 /* end */
+
+/* contact us */
+.contact-div{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 30px;
+  gap: 20px;
+}
+.contact-fruitimg{
+  border: 1px solid #CC6666;
+  border-radius: 7px;
+}
+.feedback-input {
+  color:rgb(0, 0, 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #fc5d35;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+.feedback-input:focus { border:2px solid #fc5d35; }
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+.contactus-submit {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#fc5d35;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+.contactus-submit:hover { background:#fc5d35; }
+/* end */
+
+/* footer section */
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  padding: 1rem;
+  background: antiquewhite;
+  height: 300px;
+}
+.quick-links {
+  list-style-type: none;
+}
+.quick-links li {
+  margin-bottom: 10px;
+}
+.fruits {
+  width: 17%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.services {
+  width: 20%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.list {
+  width: 22%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.FollowUs {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.social-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe input[type="email"] {
+  width: 225px;
+  height: 32px;
+}
+.subscribe button {
+  background-color: #fc5d35;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 5px 30px;
+  /* margin-top: 15px; */
+  font-size: 15px;
+}
+.copyright{
+  background-color: #d1d0d0;
+  height: 50px;
+}
+.copyright h6{
+  text-align: center;
+  color: #1d1c1c;
+  font-size: 1.2rem;
+}
+/* end */
+
+/* Tablet section css starts */
+@media only screen and (max-width: 1024px) {
+  .container-spacing{
+    margin: 3rem;
+    padding: 1rem;
+  }
+  .commonheading{
+    font-size: 1.8rem;
+  }
+  .commonfontsizeforp{
+    font-size: 1rem;
+  }
+  .custom_subheading-text{
+    text-align: center;
+   font-size: 1.1rem;
+  }
+
+  .banner-info{
+    width: 45%;
+  }
+  .banner-info h1{
+    font-size: 2.1rem;
+  }
+  .banner-img{
+    width: 450px;
+    height: auto;
+  }
+
+  .imageaboutus{
+    width: 530px;
+    height: auto;
+  }
+
+  .card{
+    width: 240px;
+    height: 315px;
+  }
+  .card-body{
+    padding: 1rem;
+    text-align: justify;
+  }
+  .card-body h4{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .card-text{
+    font-size: 0.9rem;
+  }
+
+  .fruitinfo{
+    width: 100%;
+  }
+  .orangeimage {
+    width: 218px;
+    height: auto;
+  }
+  .grapesimage {
+    width: 226px;
+    height: auto;
+  }
+  .gauvaimage {
+    width: 212px;
+    height: auto;
+  }
+
+  .clientImage{
+    width: 220px;
+    height: 206px;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 50%;
+  }
+  .client-details h2{
+    font-size: 1.4rem;
+  }
+  .client-details p{
+    font-size: 1rem;
+  }
+
+  .contact-div{
+    display: flex;
+    flex-direction: column;
+  }
+  .sub-bannerimg .contact-fruitimg{
+    display: none;
+  }
+
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .fruits{
+    width: 17%;
+  }
+  .services{
+    width: 14%;
+  }
+  .list{
+    width: 18%;
+  }
+  .FollowUs{
+    width: 24%;
+  }
+}
+/* end */
+
 
 /* mobile section css starts */
 @media only screen and (max-width: 767px) {
@@ -228,10 +470,10 @@
     margin: 1rem;
     padding: 2rem;
   }
-  .commonheading{
+  .commonheading {
     font-size: 1.5rem;
   }
-  .custom_subheading-text{
+  .custom_subheading-text {
     font-size: 1rem;
   }
   /* banner section */
@@ -316,16 +558,56 @@
   /* end */
 
   /* client testimonals */
-  .swiper{
+  .swiper {
     width: 100%;
     height: 680px;
   }
-  .client-details h2{
+  .client-details h2 {
     font-size: 1.2rem;
     margin-bottom: 10px;
   }
-  .client-details p{
+  .client-details p {
     font-size: 1rem;
+  }
+  /* end */
+
+  /* contact us */
+  .contact-div{
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-fruitimg{
+    border: 1px solid #CC6666;
+    border-radius: 7px;
+    width: 100%;
+  }
+  /*  */
+
+  /* footer section */
+  .footer{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .fruits{
+    width: 80%;
+  }
+  .services{
+    width: 80%;
+  }
+  .list{
+    width: 80%;
+  }
+  .FollowUs {
+    width: 80%;
+  }
+  .content{
+    border-bottom: 1px solid black;
+    width: 75%;
+  }
+  .copyright h6{
+    font-size: 0.9rem;
   }
   /* end */
 }

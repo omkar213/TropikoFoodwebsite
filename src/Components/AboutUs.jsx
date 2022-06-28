@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../data/data.json";
 
+
 const AboutUs = () => {
   return (
     <div className="aboutus-container container-spacing">
@@ -10,12 +11,12 @@ const AboutUs = () => {
         majority have
       </p>
       {data.AboutUs.map((d, i) => (
-        <div className="aboutusInfo">
-          <img src={d.Imageaboutus} alt="image2" className="imageaboutus" />
-          <div className="btn-section">
-            <button className="custom_black_btn">READ MORE</button>
+          <div className="aboutusInfo">
+            <img src={d.Imageaboutus} alt="image2" className="imageaboutus" />
+            <div className="btn-section">
+              <button className="custom_black_btn">READ MORE</button>
+            </div>
           </div>
-        </div>
       ))}
     </div>
   );
