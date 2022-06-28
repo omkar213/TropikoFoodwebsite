@@ -1,8 +1,10 @@
 import React from "react";
 import data from "../data/data.json";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const Freshfruits = () => {
   return (
+    <ScrollAnimation animateIn="fadeInUp" animateOnce="true" duration={1.2}>
     <div className="freshfruit-container container-spacing" id="fruit">
       <h2 className="commonheading">Fresh Fruits</h2>
       <p className="custom_subheading-text">
@@ -46,6 +48,7 @@ const Freshfruits = () => {
         </div>
       ))}
     </div>
+    </ScrollAnimation>
   );
 };
 

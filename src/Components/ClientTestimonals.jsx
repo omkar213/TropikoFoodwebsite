@@ -2,6 +2,7 @@ import React from "react";
 import data from "../data/data.json";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import ScrollAnimation from "react-animate-on-scroll";
 
 // Import Swiper styles
 import "swiper/css";
@@ -12,6 +13,7 @@ import { Navigation } from "swiper";
 
 const ClientTestimonals = () => {
   return (
+    <ScrollAnimation animateIn="fadeInUp" animateOnce="true" duration={1.2}>
     <div className="clienttestimonals-container container-spacing">
       <h2 className="commonheading">Testimonial</h2>
       <p className="custom_subheading-text">
@@ -75,6 +77,7 @@ const ClientTestimonals = () => {
         </Swiper>
       ))}
     </div>
+    </ScrollAnimation>
   );
 };
 
