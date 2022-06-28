@@ -373,6 +373,11 @@ textarea {
    font-size: 1.1rem;
   }
 
+  .navigation-menu li {
+    list-style-type: none;
+    margin: 0 9px;
+  }
+
   .banner-info{
     width: 45%;
   }
@@ -600,11 +605,11 @@ textarea {
     width: 80%;
   }
   .FollowUs {
-    width: 80%;
+    width: 100%;
   }
   .content{
     border-bottom: 1px solid black;
-    width: 75%;
+    width: 100%;
   }
   .copyright h6{
     font-size: 0.9rem;

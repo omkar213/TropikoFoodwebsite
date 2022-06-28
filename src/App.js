@@ -1,5 +1,6 @@
 import React from 'react';
 import SmoothScroll from "smooth-scroll";
+import Header from './Components/Header';
 import AboutUs from './Components/AboutUs';
 import Banner from './Components/Banner';
 import Ourservice from './Components/Ourservice';
@@ -19,6 +20,7 @@ function App() {
   
   return (
     <div>
+       <Header/>
        <Banner/>
        <AboutUs/>
        <Ourservice/>

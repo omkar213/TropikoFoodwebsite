@@ -3,7 +3,7 @@ import data from "../data/data.json";
 
 const Contactus = () => {
   return (
-    <div className="contactUs-container container-spacing">
+    <div className="contactUs-container container-spacing" id="contactus">
       <h2 className="commonheading">Contact Us</h2>
       {data.Contactus.map((d, i) => (
         <div className="contact-div">

@@ -3,7 +3,7 @@ import data from "../data/data.json";
 
 const Freshfruits = () => {
   return (
-    <div className="freshfruit-container container-spacing">
+    <div className="freshfruit-container container-spacing" id="fruit">
       <h2 className="commonheading">Fresh Fruits</h2>
       <p className="custom_subheading-text">
         There are many variations of passages of Lorem Ipsum available, but the

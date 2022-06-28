@@ -1,4 +1,17 @@
 {
+    "Header" : [{
+        "name": "Header",
+        "menuItems": [ {"name" : "Home","id": "#Home"},
+            {"name" : "About Us","id": "#aboutus"},
+            {"name" : "Service","id": "#service"},
+            {"name" : "Fruits","id": "#fruit"},
+            {"name" : "Contact Us","id": "#contactus"}],
+        "logo": "/Images/Logo1.png",
+        "socialimage1" : "Images/fb.png",
+        "socialimage2" : "Images/twitter.png",
+        "socialimage3" : "Images/instagram.png",
+        "socialimage4" : "Images/linkedin.png" 
+    }],
     "Banner" : [{
         "name" : "banner",
         "bannerheading": "Welcome to Our Fruits Shop",

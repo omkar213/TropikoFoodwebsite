@@ -4,7 +4,7 @@ import data from "../data/data.json";
 
 const AboutUs = () => {
   return (
-    <div className="aboutus-container container-spacing">
+    <div className="aboutus-container container-spacing" id="aboutus">
       <h2 className="commonheading">About Us</h2>
       <p className="custom_subheading-text">
         There are many variations of passages of Lorem Ipsum available, but the
